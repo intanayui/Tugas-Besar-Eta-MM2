@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-
-       <TextView
+    <TextView
         android:id="@+id/text_home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,10 +18,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="5dp"
         android:orientation="vertical">
 
         <ImageView
@@ -51,7 +42,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="716dp"
+            android:layout_height="670dp"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -62,9 +53,9 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/go_ride"
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
+                    android:id="@+id/sepatu_sekolah"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_gravity="center"
                     android:layout_margin="16dp"
                     android:layout_weight="1"
@@ -78,9 +69,9 @@
                     android:text="         Sepatu  " />
 
                 <ImageView
-                    android:id="@+id/go_food"
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
+                    android:id="@+id/sepatu_kulit"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_gravity="center"
                     android:layout_margin="16dp"
                     android:layout_weight="1"
@@ -94,9 +85,9 @@
                     android:text="   Sepatu Kulit" />
 
                 <ImageView
-                    android:id="@+id/go_send"
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
+                    android:id="@+id/baju"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_gravity="center"
                     android:layout_margin="16dp"
                     android:layout_weight="1"
@@ -118,9 +109,9 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/go_mart"
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
+                    android:id="@+id/sepatu_wanita"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_gravity="center"
                     android:layout_margin="16dp"
                     android:layout_weight="1"
@@ -134,9 +125,9 @@
                     android:text="Sepatu Wanita" />
 
                 <ImageView
-                    android:id="@+id/go_send"
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
+                    android:id="@+id/tas_sekolah"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_gravity="center"
                     android:layout_margin="16dp"
                     android:layout_weight="1"
@@ -150,9 +141,9 @@
                     android:text="           Tas" />
 
                 <ImageView
-                    android:id="@+id/go_send"
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
+                    android:id="@+id/selimut"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_gravity="center"
                     android:layout_margin="16dp"
                     android:layout_weight="1"
@@ -174,9 +165,9 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/go_mart"
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
+                    android:id="@+id/sepatu_bayi"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_gravity="center"
                     android:layout_margin="16dp"
                     android:layout_weight="1"
@@ -190,9 +181,9 @@
                     android:text="     Sepatu Bayi" />
 
                 <ImageView
-                    android:id="@+id/go_send"
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
+                    android:id="@+id/boneka"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_gravity="center"
                     android:layout_margin="16dp"
                     android:layout_weight="1"
@@ -206,9 +197,9 @@
                     android:text="         Boneka" />
 
                 <ImageView
-                    android:id="@+id/go_send"
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
+                    android:id="@+id/sofa"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_gravity="center"
                     android:layout_margin="16dp"
                     android:layout_weight="1"
@@ -227,6 +218,6 @@
 
     </LinearLayout>
 
-    </RelativeLayout>
-</ScrollView>
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
+
