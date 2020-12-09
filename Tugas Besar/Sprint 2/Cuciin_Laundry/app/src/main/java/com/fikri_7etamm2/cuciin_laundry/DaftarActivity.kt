@@ -1,12 +1,10 @@
 package com.fikri_7etamm2.cuciin_laundry
 
-import android.content.Intent
+
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat.startActivity
 import kotlinx.android.synthetic.main.activity_daftar.*
-import kotlinx.android.synthetic.main.activity_login.*
 
 class DaftarActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,9 +20,6 @@ class DaftarActivity : AppCompatActivity() {
             } else {
                 Toast.makeText(this, "Failed", Toast.LENGTH_LONG).show()
             }
-
-
-
         }
     }
 }

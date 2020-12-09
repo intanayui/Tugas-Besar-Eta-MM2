@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.DetailOrderActivity"
+    tools:showIn="@layout/activity_detail_order">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+        <TextView
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilihan"
+            android:textColor="#1B78BB"/>
+        <TextView
+            android:id="@+id/t_pilihan_detail"
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuci bagian luar dalam
++- 3 hari" />
+        <TextView
+            android:paddingTop="20dp"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detail"
+            android:textColor="#1B78BB"/>
+        <TextView
+            android:id="@+id/t_detail_detail"
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuci bagian luar dalam
++- 3 hari" />
+
+        <TextView
+            android:paddingTop="20dp"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Biaya"
+            android:textColor="#1B78BB"/>
+        <TextView
+            android:id="@+id/t_biaya_detail"
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuci bagian luar dalam
++- 3 hari" />
+        <TextView
+            android:paddingTop="20dp"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah"
+            android:textColor="#1B78BB"/>
+        <TextView
+            android:id="@+id/t_jumlah_detail"
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuci bagian luar dalam
++- 3 hari" />
+        <TextView
+            android:paddingTop="20dp"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Catatan"
+            android:textColor="#1B78BB"/>
+        <TextView
+            android:id="@+id/t_catatan_detail"
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuci bagian luar dalam
++- 3 hari" />
+    </LinearLayout>
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="@dimen/text_margin"-->
+<!--        android:text="@string/large_text" />-->
+
+</androidx.core.widget.NestedScrollView>
