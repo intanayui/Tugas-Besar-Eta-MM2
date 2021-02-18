@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "351924575162",
+    "project_id": "cuciinlaundri",
+    "storage_bucket": "cuciinlaundri.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351924575162:android:fc24e39e70c6ce3efadb83",
+        "android_client_info": {
+          "package_name": "com.fikri_7etamm2.cuciin_laundry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351924575162-7qpjtes3j43junh8aq2eisjt0jerepr1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmSJhb64Ff_hlDuIwFU1-YNKi5hoha9bQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351924575162-7qpjtes3j43junh8aq2eisjt0jerepr1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
